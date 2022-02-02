@@ -1,5 +1,5 @@
 # NetworkLatency
-**Server**
+**Server Configuration**
 
 install java
 
@@ -12,7 +12,7 @@ get Server.sh and ServerLatency.jar file and copy to /home/java
 give permission on folder
 
 
-**Client**
+**Client Configuration**
 
 install java
 
