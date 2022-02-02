@@ -1,7 +1,7 @@
 # NetworkLatency
 **Server Configuration**
 
-install java
+install java with following commands
 
 sudo apt update
 
@@ -14,7 +14,7 @@ give permission on folder
 
 **Client Configuration**
 
-install java
+install java with following commands
 
 sudo apt update
 
