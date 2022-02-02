@@ -7,7 +7,7 @@ sudo apt update
 
 sudo apt install openjdk-8-jre-headless
 
-get server.sh and Serverlatency.jar file and copy to /home/java
+get Server.sh and Serverlatency.jar file and copy to /home/java
 
 give permission on folder
 
@@ -20,7 +20,7 @@ sudo apt update
 
 sudo apt install openjdk-8-jre-headless
 
-get client.sh,final.sh and Clientlatency.jar file and copy to /home/java
+get client.sh, Final-Analysis.sh and Clientlatency.jar file and copy to /home/java
 
 give permission on folder
 
