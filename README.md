@@ -1,26 +1,26 @@
 # NetworkLatency
 ## Server Configuration
 
-install java with following commands.
+Install java with following commands.
 
 sudo apt update
 
 sudo apt install openjdk-8-jre-headless
 
-get Server.sh and ServerLatency.jar file and copy to /home/java
+Get Server.sh and ServerLatency.jar file and copy to /home/java
 
-give permission on folder
+Give permission on folder
 
 
 ## Client Configuration
 
-install java with following commands
+Install java with following commands
 
 sudo apt update
 
 sudo apt install openjdk-8-jre-headless
 
-install tshark with command
+Install tshark with following command
 
 sudo apt install tshark
 
