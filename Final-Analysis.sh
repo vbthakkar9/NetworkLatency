@@ -7,10 +7,10 @@ echo "Final pcap file generarted"
 cd /home/java
 echo "Analysis pcap file. Please wait..."
 echo ""
-System.out.println("-----RETRANSMISSION REPORT EVERY 10 SEC--------");
+echo "-----RETRANSMISSION REPORT EVERY 10 SEC--------"
 tshark -r test.pcap -q -z io,stat,10,"COUNT(tcp.analysis.retransmission) tcp.analysis.retransmission"| grep -P "\d+\.?\d*\s+<>\s+|Interval +\|" | tr "|" " " | sed -E 's/<>/-/;'
 echo ""
-System.out.println("-----TOTAL RETRANSMISSION--------");
+echo "-----TOTAL RETRANSMISSION--------"
 tshark -n -r test.pcap -Y "tcp.analysis.retransmission" -T fields -e tcp.stream | wc -l
 echo ""
 java -jar LatencyReport.jar
