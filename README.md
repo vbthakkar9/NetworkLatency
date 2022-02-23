@@ -25,7 +25,7 @@ Install tshark with following command
 
 sudo apt install tshark
 
-Get Client.sh, Final-Analysis.sh and ClientLatency.jar file and copy to /home/java
+Get Client.sh, Final-Analysis.sh and ClientLatency.jar, LatencyReport.jar file and copy to /home/java
 
 Give permission on folder
 
