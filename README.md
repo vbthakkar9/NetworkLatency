@@ -6,7 +6,7 @@ Install java with following commands.
     sudo apt update
     sudo apt install openjdk-8-jre-headless
 
-Get Server.sh and ServerLatency.jar file with following command and copy to /home/java
+Get Server.sh and ServerLatency.jar file with following command and copy to `/home/java`
 
     wget https://raw.githubusercontent.com/vbthakkar9/NetworkLatency/main/Server.sh
     wget https://github.com/vbthakkar9/NetworkLatency/raw/main/ServerLatency.jar
@@ -22,14 +22,13 @@ Run Server.sh file with following command.
 Install java with following commands
 
     sudo apt update
-
     sudo apt install openjdk-8-jre-headless
 
 Install tshark with following command
 
     sudo apt install tshark
 
-Get Client.sh, Final-Analysis.sh and ClientLatency.jar, LatencyReport.jar file and copy to /home/java
+Get Client.sh, Final-Analysis.sh and ClientLatency.jar, LatencyReport.jar file and copy to `/home/java`
 
     wget https://raw.githubusercontent.com/vbthakkar9/NetworkLatency/main/Client.sh
     wget https://github.com/vbthakkar9/NetworkLatency/raw/main/ClientLatency.jar
@@ -38,7 +37,7 @@ Get Client.sh, Final-Analysis.sh and ClientLatency.jar, LatencyReport.jar file a
 
 Give permission on folder
 
-create folder /home/java/temp
+create folder `/home/java/temp` where our `pcap` files will be generated.
 
 give permission on folder
 
