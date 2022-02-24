@@ -44,10 +44,10 @@ give permission on folder
 
 Run Client.sh file with following command.
 
-  sh Client.sh
+    sh Client.sh
 
 Once file is uploaded on server we will get success message on screen. Press ctrl +c to exit.
 
 Once the above steps are done we can generate the report. To generate the report run Final-Analysis.sh with following command.
-   
-   sh Final-Analysis.sh
+
+    sh Final-Analysis.sh
