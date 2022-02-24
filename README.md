@@ -7,7 +7,10 @@ Install java with following commands.
 
     sudo apt install openjdk-8-jre-headless
 
-Get Server.sh and ServerLatency.jar file and copy to /home/java
+Get Server.sh and ServerLatency.jar file with following command and copy to /home/java
+
+    wget https://raw.githubusercontent.com/vbthakkar9/NetworkLatency/main/Server.sh
+    wget https://github.com/vbthakkar9/NetworkLatency/raw/main/ServerLatency.jar
 
 Give permission on folder
 
