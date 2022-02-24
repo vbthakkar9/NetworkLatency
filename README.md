@@ -38,9 +38,9 @@ Get Client.sh, Final-Analysis.sh and ClientLatency.jar, LatencyReport.jar file a
 
 Give permission on folder
 
-create folder `/home/java/temp` where our `pcap` files will be generated.
+Create folder `/home/java/temp` where our `pcap` files will be generated.
 
-give permission on folder
+Give permission on folder
 
 ## Run Client Program
 
