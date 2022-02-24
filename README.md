@@ -58,4 +58,4 @@ Once the above steps are done we can generate the report. To generate the report
 
     sh Final-Analysis.sh
 
-It will generate report for retransmission done every 10 seconds, total retransmission packets and network latency average, p95,p99 for every 10 seconds.
+It will generate report for retransmission done every 10 seconds, total retransmission packets and network latency average, p95, p99 for every 10 seconds.
