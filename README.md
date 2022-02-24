@@ -18,6 +18,8 @@ Run Server.sh file with following command.
     
     sh Server.sh
 
+It will ask for the port number and file name as input paramters. Can provide any tcp port number and any file name.
+
 ## Client Configuration
 
 Install java with following commands
@@ -48,7 +50,8 @@ Run Client.sh file with following command.
 
     sh Client.sh
 
-Once file is uploaded on server we will get success message on screen. Press `ctrl+c` to exit.
+It will ask for the server port number(same port which we have provided on server), server ip and file name that you want to send over network as input paramters. 
+Once file is uploaded on server we will get `success` message on screen. Press `ctrl+c` to exit.
 
 ## Generate Report
 Once the above steps are done we can generate the report. To generate the report run Final-Analysis.sh with following command.
