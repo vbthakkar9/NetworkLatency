@@ -4,7 +4,6 @@
 Install java with following commands.
 
     sudo apt update
-
     sudo apt install openjdk-8-jre-headless
 
 Get Server.sh and ServerLatency.jar file with following command and copy to /home/java
@@ -14,7 +13,8 @@ Get Server.sh and ServerLatency.jar file with following command and copy to /hom
 
 Give permission on folder
 
-Run Server.sh file.
+Run Server.sh file with following command.
+    sh Server.sh
 
 ## Client Configuration
 
