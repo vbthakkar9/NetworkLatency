@@ -31,13 +31,23 @@ Install tshark with following command
 
 Get Client.sh, Final-Analysis.sh and ClientLatency.jar, LatencyReport.jar file and copy to /home/java
 
+    wget https://raw.githubusercontent.com/vbthakkar9/NetworkLatency/main/Client.sh
+    wget https://github.com/vbthakkar9/NetworkLatency/raw/main/ClientLatency.jar
+    wget https://github.com/vbthakkar9/NetworkLatency/raw/main/Final-Analysis.sh
+    wget https://github.com/vbthakkar9/NetworkLatency/raw/main/LatencyReport.jar
+
 Give permission on folder
 
 create folder /home/java/temp
 
 give permission on folder
 
-Run Client.sh file.
+Run Client.sh file with following command.
 
-Once file is uploaded on server we can run Final-Analysis.sh file.
- file.
+  sh Client.sh
+
+Once file is uploaded on server we will get success message on screen. Press ctrl +c to exit.
+
+Once the above steps are done we can generate the report. To generate the report run Final-Analysis.sh with following command.
+   
+   sh Final-Analysis.sh
