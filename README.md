@@ -13,6 +13,7 @@ Get Server.sh and ServerLatency.jar file with following command and copy to `/ho
 
 Give permission on folder
 
+## Run Server Program
 Run Server.sh file with following command.
     
     sh Server.sh
@@ -41,12 +42,15 @@ create folder `/home/java/temp` where our `pcap` files will be generated.
 
 give permission on folder
 
+## Run Client Program
+
 Run Client.sh file with following command.
 
     sh Client.sh
 
 Once file is uploaded on server we will get success message on screen. Press `ctrl+c` to exit.
 
+## Generate Report
 Once the above steps are done we can generate the report. To generate the report run Final-Analysis.sh with following command.
 
     sh Final-Analysis.sh
