@@ -11,7 +11,7 @@ Get Server.sh and ServerLatency.jar file with following command and copy to `/ho
     wget https://raw.githubusercontent.com/vbthakkar9/NetworkLatency/main/Server.sh
     wget https://github.com/vbthakkar9/NetworkLatency/raw/main/ServerLatency.jar
 
-Give permission on folder
+Provide full permission on that folder.
 
 ## Run Server Program
 Run Server.sh file with following command.
@@ -38,11 +38,11 @@ Get Client.sh, Final-Analysis.sh and ClientLatency.jar, LatencyReport.jar file a
     wget https://github.com/vbthakkar9/NetworkLatency/raw/main/Final-Analysis.sh
     wget https://github.com/vbthakkar9/NetworkLatency/raw/main/LatencyReport.jar
 
-Give permission on folder
+Provide full permission on that folder.
 
 Create folder `/home/java/temp` where our `pcap` files will be generated.
 
-Give permission on folder
+Provide full permission on that folder.
 
 ## Run Client Program
 
