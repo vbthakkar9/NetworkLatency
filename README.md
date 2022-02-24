@@ -14,6 +14,7 @@ Get Server.sh and ServerLatency.jar file with following command and copy to /hom
 Give permission on folder
 
 Run Server.sh file with following command.
+    
     sh Server.sh
 
 ## Client Configuration
